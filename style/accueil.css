@@ -1,34 +1,3 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    background-color: rgb(28, 29, 44);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-header {
-    width: 100%;
-    height: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: white;
-    border-bottom: 1px solid rgb(220, 220, 220);
-    box-shadow: 0 0 10px rgba(0, 0, 0.075);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    font-size: 24px;
-    color:rgb(60, 60, 60);
-    margin: 0;
-}
-
-main {
-    height: calc(100%-51px);
-    overflow-y: scroll;
-}
-
 #accroche {
     height: 100%;
     background-color: rgb(28, 29, 44);
@@ -36,35 +5,18 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 25px;
-    padding-bottom: 45px;
 }
 
 #accroche h2 {
     text-transform: uppercase;
     color: white;
     margin:0 ;
-    margin-bottom: 20px;
-}
-
-#accrocheLien {
-    color: white;
-    background: linear-gradient(45deg, red, blue);
-    padding : 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.2s;
-}
-
-#accrocheLien:hover {
-    background: rgb(245, 245, 245);
-    color: rgb(40, 40, 40);
+    margin-bottom: 40px;
 }
 
 #exemple {
     background-color: white;
-    padding-top: 40px;
+    padding: 80px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,22 +45,11 @@ main {
 
 .exempleRealisations div {
     height: 200px;
-    /*background-image: url("../html/image/image1.png");*/
+    background-image: url("../html/image/image1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-top-left-radius: 5px;
     border-top-right-radius:5px;
 
-}
-
-.er1 {
-    background-image: url("../html/image/image2.png");
-}
-
-.er2 {
-    background-image: url("../html/image/image3.png");
-}
-.er3 {
-    background-image: url("../html/image/image4.png");
 }
