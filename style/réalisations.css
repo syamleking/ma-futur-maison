@@ -1,0 +1,13 @@
+main h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 34px;
+    color: rgb(40, 40, 40);
+}
+
+main ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
